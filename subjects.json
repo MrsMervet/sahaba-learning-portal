@@ -1,0 +1,62 @@
+[
+  {
+    "id": "abubakr",
+    "name": "أبو بكر الصديق",
+    "value": "الصدق والوفاء",
+    "icon": "heart",
+    "theme": "purple",
+    "lesson": "https://mrsmervet.github.io/abubakinfo/?v=portal1",
+    "game": "https://mrsmervet.github.io/abobakrgame/?v=portal1",
+    "gameName": "مغامرة الصياد الذكي",
+    "pdf": null,
+    "caption": "اكتشف سيرته، واختبر معلوماتك في مغامرة الصيد."
+  },
+  {
+    "id": "umar",
+    "name": "عمر بن الخطاب",
+    "value": "العدل والقوة",
+    "icon": "balance",
+    "theme": "green",
+    "lesson": "https://mrsmervet.github.io/omarinfo/?v=portal1",
+    "game": "https://mrsmervet.github.io/omargame/?v=portal1",
+    "gameName": "لعبة الفاروق",
+    "pdf": null,
+    "caption": "تعرف إلى رحلة الفاروق، ثم انطلق إلى تحدي المعرفة."
+  },
+  {
+    "id": "uthman",
+    "name": "عثمان بن عفان",
+    "value": "الحياء والكرم",
+    "icon": "water",
+    "theme": "blue",
+    "lesson": "https://mrsmervet.github.io/uthman-interactive-infographic/?v=portal1",
+    "game": "https://mrsmervet.github.io/uthman-word-hunt/?v=portal1",
+    "gameName": "صيد المعرفة",
+    "pdf": "Uthman_Summary.pdf",
+    "caption": "بطاقات ملونة عن سيرته، ولعبة لصيد المعلومة الصحيحة."
+  },
+  {
+    "id": "ali",
+    "name": "علي بن أبي طالب",
+    "value": "العلم والشجاعة",
+    "icon": "shield",
+    "theme": "rose",
+    "lesson": "https://mrsmervet.github.io/ali-learning-adventure/?v=portal1",
+    "game": "https://mrsmervet.github.io/ali-learning-adventure/game.html?v=portal1",
+    "gameName": "حارس كنز المعرفة",
+    "pdf": "Ali_Summary.pdf",
+    "caption": "اكتشف بطاقات السيرة، وكن حارسا لكنز المعرفة."
+  },
+  {
+    "id": "talha",
+    "name": "طلحة بن عبيد الله",
+    "value": "العطاء والوفاء",
+    "icon": "gift",
+    "theme": "amber",
+    "lesson": "https://mrsmervet.github.io/talha-knowledge-cup/?v=portal1",
+    "game": "https://mrsmervet.github.io/talha-knowledge-cup/game.html?v=shoot3",
+    "gameName": "كأس المعرفة",
+    "pdf": "Talha_Summary.pdf",
+    "caption": "تعلم من سيرته، وراوغ وسدد في ملعب كأس المعرفة."
+  }
+]
