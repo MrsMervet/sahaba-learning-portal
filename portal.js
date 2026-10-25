@@ -2,7 +2,7 @@
 (()=>{
   const input=document.getElementById('search'),grid=document.getElementById('journey-grid'),cards=[...grid.querySelectorAll('.journey')],filters=[...document.querySelectorAll('[data-filter]')],count=document.getElementById('result-count'),note=document.getElementById('filter-note'),empty=document.getElementById('empty');
   let mode='all';
-  const normalize=s=>s.normalize('NFKD').replace(/[\u064b-\u065f\u0670ـ]/g,'').replace(/[أإآٱ]/g,'ا').replace(/ى/g,'ي').replace(/ة/g,'ه').replace(/\s+/g,' ').trim().toLowerCase();
+  const normalize=s=>s.normalize('NFKD').replace(/[\u064b-\u065f\u0670ـ]/g,'').replace(/[أإآٱ]/g,'ا').replace(/ى/g,'ي').replace(/ة/g,'ه').replace(/\s+/g,'').toLowerCase();
   const ar=n=>String(n).replace(/\d/g,d=>'٠١٢٣٤٥٦٧٨٩'[d]);
   function render(){
     const query=normalize(input.value);let visible=0;
