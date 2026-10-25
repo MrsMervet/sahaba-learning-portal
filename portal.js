@@ -9,7 +9,7 @@
     for(const card of cards){const matches=normalize(card.dataset.name).includes(query),available=mode!=='pdf'||card.dataset.pdf==='true';card.hidden=!(matches&&available);if(!card.hidden)visible++;}
     grid.dataset.mode=mode;empty.hidden=visible!==0;
     count.textContent=visible===0?'لا توجد نتائج':visible===1?'رحلة واحدة':visible===2?'رحلتان تعليميتان':ar(visible)+' رحلات تعليمية';
-    note.textContent=mode==='pdf'?'ثلاثة ملخصات جاهزة، كل ملف من صفحتين: شرح وتمارين. افتح ملف الصحابي المناسب لقراءته أو طباعته.':mode==='game'?'اختر «ألعب وأتحدى» للدخول مباشرة إلى اللعبة. تفتح الألعاب في تبويب جديد.':mode==='lesson'?'اختر «أتعلم السيرة» لاستكشاف البطاقات والتدريبات التفاعلية.':'اختر الدرس أو اللعبة من بطاقة الصحابي. ستفتح في تبويب جديد لتبقى البوابة معك.';
+    note.textContent=mode==='pdf'?'خمسة ملخصات جاهزة، كل ملف من صفحتين: شرح وتمارين. افتح ملف الصحابي المناسب لقراءته أو طباعته.':mode==='game'?'اختر «ألعب وأتحدى» للدخول مباشرة إلى اللعبة. تفتح الألعاب في تبويب جديد.':mode==='lesson'?'اختر «أتعلم السيرة» لاستكشاف البطاقات والتدريبات التفاعلية.':'اختر الدرس أو اللعبة من بطاقة الصحابي. ستفتح في تبويب جديد لتبقى البوابة معك.';
     for(const button of filters)button.setAttribute('aria-pressed',String(button.dataset.filter===mode));
   }
   filters.forEach(button=>button.addEventListener('click',()=>{mode=button.dataset.filter;render()}));
